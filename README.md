@@ -1,8 +1,8 @@
 # WowTube
 
-Watch YouTube in a framed window on top of World of Warcraft: on a flight path, during a crafting session, or in a small window that stays up while you play.
+Watch YouTube in a framed window on top of World of Warcraft: On a flight path, during a crafting session, or in a small window that stays up while you play.
 
-**Status:** early test build (0.2.5), shared with a few testers. "WowTube" is a working title.
+**Status:** early test build (0.2.6), shared with a few testers. "WowTube" is a working title.
 
 WowTube is not affiliated with, approved by or endorsed by Blizzard Entertainment or YouTube.
 
@@ -13,7 +13,7 @@ Get the latest `WowTube-<version>-win-x64.zip` from the [Releases page](https://
 - **Windows 10 or 11, 64-bit.** Not Mac or Linux.
 - **WoW in "Fullscreen (Windowed)" or "Windowed" mode.**
 - Tested with WoW: Forever on Windows 11. Other WoW versions and Windows 10 are untested.
-- The build is not code-signed, so Windows SmartScreen warns on first run: choose **More info**, then **Run anyway**.
+- The build is not code-signed, so Windows SmartScreen warns on first run: Choose **More info**, then **Run anyway**.
 
 ## What it does
 
@@ -23,7 +23,8 @@ Get the latest `WowTube-<version>-win-x64.zip` from the [Releases page](https://
 - **Lock** fixes the frame in place and lets clicks pass through it to the game.
 - The border, and optionally the bar, hide when your pointer is away.
 - The frame stays inside the game window, hides when the game is minimized or covered (the video keeps playing unless you choose otherwise in Settings), and stays hidden when the game is launched until you ask for it.
-- Hotkeys, opacity and other options are in Settings, from the tray icon.
+- Every hotkey can be changed or turned off in Settings, which also holds opacity and the other options. Open it from the player's menu or the tray icon.
+- Your keyboard's own play and pause key works on the video while you are in the game.
 
 ## What it does not do
 
@@ -47,4 +48,4 @@ For requests, fan mail and business inquiries, email Adam Peterson at [petersona
 
 ## Ownership
 
-Copyright (c) 2026 Adam Peterson (Petey85). All rights reserved. No license is granted: you may run the official builds for your own use, but you may not copy, modify or redistribute the app or its source code without permission. See [LICENSE.txt](LICENSE.txt). The third-party software included in the builds is listed in [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).
+Copyright (c) 2026 Adam Peterson (Petey85). All rights reserved. No license is granted: You may run the official builds for your own use, but you may not copy, modify or redistribute the app or its source code without permission. See [LICENSE.txt](LICENSE.txt). The third-party software included in the builds is listed in [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).

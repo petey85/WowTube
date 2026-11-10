@@ -1,4 +1,4 @@
-WowTube 0.2.5 (test build)
+WowTube 0.2.6 (test build)
 ==========================
 
 Watch YouTube in a framed window on top of World of Warcraft.
@@ -11,7 +11,7 @@ BEFORE YOU START
 * Windows 10 or 11, 64-bit. It does not run on Mac or Linux.
 * WoW must be in "Fullscreen (Windowed)" or "Windowed" display mode.
 * Blizzard has not approved this program. It does not read the game's
-  memory, change the game, or press keys for you: it is a video window
+  memory, change the game, or press keys for you: It is a video window
   that floats over the game. No rule we found forbids that, but nothing
   authorizes it either. Using it on your WoW account is your choice.
 
@@ -42,9 +42,15 @@ HOTKEYS (work while you are playing)
   Ctrl+Alt+L        Lock / unlock
   Ctrl+Alt+P        Play / pause
   Ctrl+Alt+Up/Down  Volume
+  Ctrl+Alt+Q        Mute / unmute
   Ctrl+Alt+F        Video full screen, on and off
 
-Change them from the tray icon: right-click it, then Settings.
+Every hotkey can be changed or turned off. Open Settings from the
+menu button on the player, or right-click the tray icon. Click a
+hotkey's box and press the new keys, then Save.
+
+Your keyboard's own media keys work too: If it has a play and pause
+key, that key pauses and plays the video while you are in the game.
 
 
 THE PLAYER
@@ -53,9 +59,9 @@ The bar along the top:
 
   Menu (three lines)  Back, Open copied link, Lock, Reset size,
                       hide the bar or border, Settings, What's new,
-                      Hide video, Quit WowTube.
+                      Hide WowTube, Quit WowTube.
   Anywhere on the bar Drag to move the player.
-  Square              Maximize: fill the game with the video.
+  Square              Maximize: Fill the game with the video.
                       Click again to go back to the size you had.
                       Double-clicking the bar does the same.
   X                   Close the video. Ctrl+Alt+Y brings it back.
@@ -65,7 +71,7 @@ The bar along the top:
   exactly). The border and (if you choose) the bar hide when
   your pointer is away, and return when it comes back.
 * For a video-only view at any size, press Ctrl+Alt+F or choose
-  "Video full screen" in the menu: it fills the player, not your
+  "Video full screen" in the menu: It fills the player, not your
   monitor. The same key or menu line leaves it. The F key and Esc
   cannot do it, because your keyboard stays with the game. In
   Settings you can choose to have a double-click on the video
@@ -103,7 +109,7 @@ Tell whoever sent you this (they may have shared a feedback form), or
 open an issue at:
   https://github.com/petey85/WowTube/issues
 
-Useful things to say: what you were doing, what you expected, what
+Useful things to say: What you were doing, what you expected, what
 happened, and whether you use one monitor or more.
 
 If something goes wrong, the log helps. Right-click the tray icon,
@@ -117,7 +123,7 @@ REMOVING IT
    click it to untick it.
 2. Choose Quit.
 3. Delete WowTube.exe.
-4. Optional: delete the folder %AppData%\WowTube (press Win+R, paste
+4. Optional: Delete the folder %AppData%\WowTube (press Win+R, paste
    that, press Enter). It holds your settings and YouTube sign-in.
 
 
@@ -132,7 +138,7 @@ THIRD-PARTY-NOTICES.txt.
 
 UPDATING
 --------
-WowTube tells you when a newer version is out: a notice near the clock
+WowTube tells you when a newer version is out: A notice near the clock
 when you are out of the game, and a "New Version ... available" item in
 the tray menu. Click either to open the download page. It only asks
 GitHub which version is newest and sends nothing about you. You can

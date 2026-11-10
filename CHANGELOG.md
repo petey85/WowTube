@@ -1,12 +1,23 @@
 # WowTube changelog
 
+## 0.2.6 (2026-11-10)
+
+- New hotkey: Ctrl+Alt+Q mutes and unmutes the video, without changing the volume level. You can change the key in Settings.
+- Resting your pointer on a button in the bar now shows what it does, with its hotkey.
+- If another program already uses one of WowTube's hotkeys, a notice at start now names the hotkey, so you can pick a different one in Settings.
+- In the player menu, "Hide video" is now "Hide WowTube", and it shows the hotkey that brings the player back.
+- The About window no longer has the line of small print above the Close button, and Close sits on the right with more space above it.
+- Help has a new Settings section: How to open it, how to change or turn off a hotkey, and what each choice does.
+- Help, the first-steps text and the README now say that your keyboard's own play and pause key works on the video while you are in the game.
+- Wording tidied throughout: The first word after a colon is capitalized.
+
 ## 0.2.5 (2026-11-09)
 
 Playing while you are away
 
 - The video keeps playing when you switch away from the game (Alt+Tab, or minimizing it). The player still hides, and you keep the sound. To get the old behavior back, tick "Pause the video when you switch away from the game" in Settings.
 - When you hide the player yourself and show it again, the video carries on playing if it was playing before. This covers the Ctrl+Alt+Y hotkey, the X on the bar, "Hide video" in the menu and a click on the tray icon.
-- Fixed: the video could keep playing with no player on screen if you turned it off from the tray while another program was in front.
+- Fixed: The video could keep playing with no player on screen if you turned it off from the tray while another program was in front.
 
 Video full screen (the view with only the video and no YouTube page around it)
 
@@ -19,9 +30,9 @@ Video full screen (the view with only the video and no YouTube page around it)
 Double-clicking the video
 
 - The setting "Maximize the player when a video goes full screen" has been renamed "Double-clicking the video maximizes the player", because that is now exactly what it does.
-- With the setting ticked: a double-click on the video makes the player fill the whole game. Another double-click puts it back to the size it had. The video stays in its video-only view both times, so you never drop back to the YouTube page by accident.
+- With the setting ticked: A double-click on the video makes the player fill the whole game. Another double-click puts it back to the size it had. The video stays in its video-only view both times, so you never drop back to the YouTube page by accident.
 - Before this version, with the same setting ticked, the first double-click could take the video out of its video-only view without changing the player's size, the second filled the game, and the third went back to the small player showing the page. That three-step cycle is gone.
-- With the setting unticked, nothing changes: a double-click turns YouTube's video-only view on and off at the player's current size.
+- With the setting unticked, nothing changes: A double-click turns YouTube's video-only view on and off at the player's current size.
 - Esc while the player fills the game still puts it back to its earlier size. With the setting ticked it now keeps the video-only view when it does.
 
 New versions
@@ -40,7 +51,7 @@ Other changes
 
 ## 0.2.4 (2026-11-09)
 
-- About window, from the tray icon and the menu button: what WowTube is, its version, and the ownership notice.
+- About window, from the tray icon and the menu button: What WowTube is, its version, and the ownership notice.
 - Help window with the hotkeys, the bar, moving and resizing, Lock, and tips.
 - Buttons for the GitHub page and for donating. Both open in your web browser.
 - A list of the third-party software included in the app, with its licenses.
@@ -52,7 +63,7 @@ Other changes
 ## 0.2.2 (2026-11-09)
 
 - The border is now a single-pixel line, the same weight as the bar's outline, and lines up exactly with the bar's edges.
-- Resizing is easier: the edges respond a few pixels either side of the line, though only the line is visible. The gold corner still works.
+- Resizing is easier: The edges respond a few pixels either side of the line, though only the line is visible. The gold corner still works.
 - New setting, off by default: "Maximize the player when a video goes full screen". With it on, YouTube's full-screen view (double-click the video, or its button) also fills the game, and leaving that view puts the player back.
 
 ## 0.2.1 (2026-11-09)
@@ -67,13 +78,13 @@ Other changes
 Shaped by the first tester feedback.
 
 - One player instead of two sizes. The mini size and the Size button are gone. The player opens showing the full YouTube site at half the game's width, and you resize it by dragging its border.
-- Maximize button (next to ✕): one click fills the game with the video. Click again to return to the size you had. Ctrl+Alt+S does the same. While maximized, the bar hides until your pointer reaches the top of the screen.
-- For a video-only view at any size, use YouTube's own full-screen button: it fills the frame, not your monitor.
+- Maximize button (next to ✕): One click fills the game with the video. Click again to return to the size you had. Ctrl+Alt+S does the same. While maximized, the bar hides until your pointer reaches the top of the screen.
+- For a video-only view at any size, use YouTube's own full-screen button: It fills the frame, not your monitor.
 - The gold border is now a thin line, and it hides when your pointer is away, leaving just the video. Turn the hiding off in Settings if you prefer the border always showing. A small gold corner at the bottom right is the easy place to grab for resizing.
 - The ≡ button opens a menu holding Back, Open copied link, Reset size, Lock, Hide bar, Hide border, Settings and What's new.
 - Drag the frame by any part of the top bar.
-- The address box is gone: search and paste links in YouTube itself. "Open copied link" in the ≡ menu opens a YouTube link you have copied.
-- What's new: this window, from the tray icon or the ≡ menu.
+- The address box is gone: Search and paste links in YouTube itself. "Open copied link" in the ≡ menu opens a YouTube link you have copied.
+- What's new: This window, from the tray icon or the ≡ menu.
 - Your old large size and position carry over from 0.1.x.
 
 ## 0.1.3 (2026-11-09)

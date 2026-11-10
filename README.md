@@ -1,0 +1,48 @@
+# WowTube
+
+Watch YouTube in a framed window on top of World of Warcraft: on a flight path, during a crafting session, or in a small window that stays up while you play.
+
+**Status:** early test build (0.2.4), shared with a few testers. "WowTube" is a working title.
+
+WowTube is not affiliated with, approved by or endorsed by Blizzard Entertainment or YouTube.
+
+## Download
+
+Get the latest `WowTube-<version>-win-x64.zip` from the [Releases page](https://github.com/petey85/WowTube/releases). Unzip it, read `README-FIRST.txt`, and run `WowTube.exe`. Nothing else needs installing on most PCs.
+
+- **Windows 10 or 11, 64-bit.** Not Mac or Linux.
+- **WoW in "Fullscreen (Windowed)" or "Windowed" mode.**
+- Tested with WoW: Forever on Windows 11. Other WoW versions and Windows 10 are untested.
+- The build is not code-signed, so Windows SmartScreen warns on first run: choose **More info**, then **Run anyway**.
+
+## What it does
+
+- A small tray app. Press **Ctrl+Alt+Y** in the game to show or hide the video.
+- One player showing the full YouTube site. Drag its border to resize, or press the maximize button (or **Ctrl+Alt+S**) to fill the game and again to go back. YouTube's own full-screen button gives a video-only view inside the player.
+- Click the video to pause it, or scroll the page, **without taking your keyboard away from the game**.
+- **Lock** fixes the frame in place and lets clicks pass through it to the game.
+- The border, and optionally the bar, hide when your pointer is away.
+- The frame stays inside the game window, hides when the game is minimized or covered, and stays hidden when the game is launched until you ask for it.
+- Hotkeys, opacity and other options are in Settings, from the tray icon.
+
+## What it does not do
+
+It does not read the game's memory, modify the game, inject into it, or send it any input. It is a separate window that floats above the game, and it looks only at where the game window is and which window is in front.
+
+Blizzard has not approved it. We found no rule that forbids a passive video window, and none that authorizes one. Using it on your account is your decision.
+
+YouTube plays through the normal YouTube site, with its ads and controls untouched.
+
+## Feedback
+
+Open an [issue](https://github.com/petey85/WowTube/issues). Say what you were doing, what you expected, what happened, and how many monitors you use.
+
+## More
+
+- How to use it: [HELP.md](HELP.md)
+- First steps and removal: [README-FIRST.txt](README-FIRST.txt)
+- Changes in each version: [CHANGELOG.md](CHANGELOG.md).
+
+## Ownership
+
+Copyright (c) 2026 Petey85. All rights reserved. No license is granted: you may run the official builds for your own use, but you may not copy, modify or redistribute the app or its source code without permission. See [LICENSE.txt](LICENSE.txt). The third-party software included in the builds is listed in [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).

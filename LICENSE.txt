@@ -1,5 +1,5 @@
 WowTube
-Copyright (c) 2026 Petey85. All rights reserved.
+Copyright (c) 2026 Adam Peterson (Petey85). All rights reserved.
 
 This software and its source code are proprietary. No license is granted.
 

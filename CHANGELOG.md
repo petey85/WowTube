@@ -1,5 +1,43 @@
 # WowTube changelog
 
+## 0.2.5 (2026-11-09)
+
+Playing while you are away
+
+- The video keeps playing when you switch away from the game (Alt+Tab, or minimizing it). The player still hides, and you keep the sound. To get the old behavior back, tick "Pause the video when you switch away from the game" in Settings.
+- When you hide the player yourself and show it again, the video carries on playing if it was playing before. This covers the Ctrl+Alt+Y hotkey, the X on the bar, "Hide video" in the menu and a click on the tray icon.
+- Fixed: the video could keep playing with no player on screen if you turned it off from the tray while another program was in front.
+
+Video full screen (the view with only the video and no YouTube page around it)
+
+- New hotkey: Ctrl+Alt+F turns the video-only view on and off. You can change the key in Settings.
+- New line in the player menu: "Video full screen", with a tick when it is on.
+- The F key on its own cannot do this while you play, because your keyboard stays with the game. The hotkey and the menu line are the way in.
+- The app remembers the view. If you quit with the video-only view on, it goes back into it the next time it starts, without you clicking anything.
+- The player keeps its size when the view changes. Only what is inside it changes.
+
+Double-clicking the video
+
+- The setting "Maximize the player when a video goes full screen" has been renamed "Double-clicking the video maximizes the player", because that is now exactly what it does.
+- With the setting ticked: a double-click on the video makes the player fill the whole game. Another double-click puts it back to the size it had. The video stays in its video-only view both times, so you never drop back to the YouTube page by accident.
+- Before this version, with the same setting ticked, the first double-click could take the video out of its video-only view without changing the player's size, the second filled the game, and the third went back to the small player showing the page. That three-step cycle is gone.
+- With the setting unticked, nothing changes: a double-click turns YouTube's video-only view on and off at the player's current size.
+- Esc while the player fills the game still puts it back to its earlier size. With the setting ticked it now keeps the video-only view when it does.
+
+New versions
+
+- WowTube now tells you when a newer version is out. It asks GitHub when it starts and every 3 hours, and sends nothing about you.
+- The notice appears only when you are out of the game (switched to another program, or the game closed), never while you are playing. It reads "New Version X available. Click here to download." Clicking it opens the download page.
+- The tray icon blinks for half a minute and then keeps a dot until you update. "New Version X available" also appears in the tray menu and the player menu.
+- The About window has a "Check for updates" button. The answer is green when you have the latest version. It is red and flashing when a newer one exists, and clicking it opens the download page.
+- Nothing is downloaded or installed for you. You can turn the check off in Settings.
+
+Other changes
+
+- The player menu has two ways out: "Hide video" and "Quit WowTube".
+- The Donate button is now called "Buy me a Coffee".
+- The owner is shown as Adam Peterson (Petey85), and the About window has a contact address for requests and business inquiries.
+
 ## 0.2.4 (2026-11-09)
 
 - About window, from the tray icon and the menu button: what WowTube is, its version, and the ownership notice.
@@ -21,7 +59,7 @@
 
 - The border now fades in and out, like the bar.
 - Double-click the top bar to maximize, and again to go back, as on a Windows title bar.
-- "Open copied link" in the ≡ menu is greyed out unless a YouTube link is copied.
+- "Open copied link" in the ≡ menu is grayed out unless a YouTube link is copied.
 - While a video is in YouTube's full-screen view, the bar says how to leave it (double-click the video) and the ≡ menu has "Exit video full screen". Esc cannot do it, because your keyboard stays with the game.
 
 ## 0.2.0 (2026-11-09)

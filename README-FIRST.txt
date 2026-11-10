@@ -1,4 +1,4 @@
-WowTube 0.2.4 (test build)
+WowTube 0.2.5 (test build)
 ==========================
 
 Watch YouTube in a framed window on top of World of Warcraft.
@@ -42,6 +42,7 @@ HOTKEYS (work while you are playing)
   Ctrl+Alt+L        Lock / unlock
   Ctrl+Alt+P        Play / pause
   Ctrl+Alt+Up/Down  Volume
+  Ctrl+Alt+F        Video full screen, on and off
 
 Change them from the tray icon: right-click it, then Settings.
 
@@ -51,7 +52,8 @@ THE PLAYER
 The bar along the top:
 
   Menu (three lines)  Back, Open copied link, Lock, Reset size,
-                      hide the bar or border, Settings, What's new.
+                      hide the bar or border, Settings, What's new,
+                      Hide video, Quit WowTube.
   Anywhere on the bar Drag to move the player.
   Square              Maximize: fill the game with the video.
                       Click again to go back to the size you had.
@@ -62,12 +64,12 @@ The bar along the top:
   edge of the thin gold border (you do not need to hit the line
   exactly). The border and (if you choose) the bar hide when
   your pointer is away, and return when it comes back.
-* For a video-only view at any size, use YouTube's own full-screen
-  button on the video: it fills the player, not your monitor. To
-  leave it, double-click the video or click that button again. The
-  Esc key will not do it, because your keyboard stays with the game.
-  In Settings you can choose to have the player maximize whenever a
-  video goes full screen.
+* For a video-only view at any size, press Ctrl+Alt+F or choose
+  "Video full screen" in the menu: it fills the player, not your
+  monitor. The same key or menu line leaves it. The F key and Esc
+  cannot do it, because your keyboard stays with the game. In
+  Settings you can choose to have a double-click on the video
+  maximize the player.
 * While maximized, the bar hides. Move your pointer to the very top
   of the screen to bring it back. Esc returns the player to the size
   it had. (While maximized the game does not receive Esc.)
@@ -84,8 +86,11 @@ elsewhere.
 
 GOOD TO KNOW
 ------------
-* The video hides and pauses when you minimize the game, or when
-  another program is in front of the game on the same monitor.
+* The player hides when you minimize the game, or when another
+  program is in front of the game on the same monitor. The video
+  keeps playing, so you still hear it. To have it pause instead,
+  tick "Pause the video when you switch away from the game" in
+  Settings.
 * It stays put when you click onto a second monitor.
 * YouTube's ads play as normal unless you are signed in with Premium.
 * Right-click the tray icon for Settings, Reset window size, Help,
@@ -118,14 +123,21 @@ REMOVING IT
 
 OWNERSHIP
 ---------
-WowTube is copyright (c) 2026 Petey85. All rights reserved. You may run
-the official builds for your own use. You may not copy, modify or
-redistribute the app or its source code without permission. The
-third-party software it includes is listed in THIRD-PARTY-NOTICES.txt.
+WowTube is copyright (c) 2026 Adam Peterson (Petey85). All rights
+reserved. You may run the official builds for your own use. You may
+not copy, modify or redistribute the app or its source code without
+permission. The third-party software it includes is listed in
+THIRD-PARTY-NOTICES.txt.
 
 
 UPDATING
 --------
+WowTube tells you when a newer version is out: a notice near the clock
+when you are out of the game, and a "New Version ... available" item in
+the tray menu. Click either to open the download page. It only asks
+GitHub which version is newest and sends nothing about you. You can
+turn the check off in Settings.
+
 Quit WowTube from the tray, download the new zip from
   https://github.com/petey85/WowTube/releases
 and replace WowTube.exe. Your settings and sign-in are kept.

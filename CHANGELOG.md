@@ -1,5 +1,17 @@
 # WowTube changelog
 
+## 0.2.7 (2026-11-10)
+
+- New button on the bar, left of maximize: It swaps the player between a wide shape for regular videos and a tall shape for YouTube Shorts.
+- Each shape remembers its own size and place. Resize or move the tall player once, and it comes back that way every time you switch to it.
+- The first time you switch, the tall player is exactly the shape of a Short, a little over a third of the height of the game, and stands where the wide one stood.
+- The player picks the shape by itself: It goes tall when you open a YouTube Short and wide again when you leave Shorts. If you pick a shape by hand, it leaves your choice alone. To turn this off, untick "Automatically switch to the tall shape for YouTube Shorts" in Settings.
+- A Short opens in the video-only view by itself, a few seconds after it appears: You see the Short alone, filling the player, with none of the YouTube page around it. Roll the mouse wheel over it to go to the next Short or back to the last one. The page, with its like and comment buttons, comes back when you press Ctrl+Alt+F or leave Shorts. To turn this off, untick "Automatically show Shorts in the video-only view" in Settings.
+- Shorts now play one after another: When a Short ends, the next one starts by itself. This carries on while the player is hidden. To have a Short replay until you scroll, as YouTube normally does, untick "Automatically play the next Short when one ends" in Settings.
+- The same switch is in the player menu as "Shorts shape (tall player)", with a tick when it is on.
+- "Reset size" now resets only the shape on show.
+- Settings is arranged under headings: Hotkeys, Player, YouTube Shorts, When you are away from the game, and WowTube.
+
 ## 0.2.6 (2026-11-10)
 
 - New hotkey: Ctrl+Alt+Q mutes and unmutes the video, without changing the volume level. You can change the key in Settings.

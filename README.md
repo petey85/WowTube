@@ -2,7 +2,7 @@
 
 Watch YouTube in a framed window on top of World of Warcraft: On a flight path, during a crafting session, or in a small window that stays up while you play.
 
-**Status:** early test build (0.2.6), shared with a few testers. "WowTube" is a working title.
+**Status:** early test build (0.2.7), shared with a few testers. "WowTube" is a working title.
 
 WowTube is not affiliated with, approved by or endorsed by Blizzard Entertainment or YouTube.
 
@@ -19,12 +19,14 @@ Get the latest `WowTube-<version>-win-x64.zip` from the [Releases page](https://
 
 - A small tray app. Press **Ctrl+Alt+Y** in the game to show or hide the video.
 - One player showing the full YouTube site. Drag its border to resize, or press the maximize button (or **Ctrl+Alt+S**) to fill the game and again to go back. Press **Ctrl+Alt+F** for a video-only view inside the player.
+- One button swaps the player between a wide shape for regular videos and a tall shape for YouTube Shorts. It also switches by itself, and Shorts play one after another.
 - Click the video to pause it, or scroll the page, **without taking your keyboard away from the game**.
 - **Lock** fixes the frame in place and lets clicks pass through it to the game.
 - The border, and optionally the bar, hide when your pointer is away.
 - The frame stays inside the game window, hides when the game is minimized or covered (the video keeps playing unless you choose otherwise in Settings), and stays hidden when the game is launched until you ask for it.
 - Every hotkey can be changed or turned off in Settings, which also holds opacity and the other options. Open it from the player's menu or the tray icon.
 - Your keyboard's own play and pause key works on the video while you are in the game.
+- Sign in to YouTube inside the player for your subscriptions and history. If you have YouTube Premium, videos play without ads, as they do on the website. WowTube remembers the sign-in.
 
 ## What it does not do
 

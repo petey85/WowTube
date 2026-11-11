@@ -23,16 +23,17 @@ Every hotkey can be changed or turned off in Settings.
 
 ## Settings
 
-- Open Settings from the menu button on the player, or by right-clicking the tray icon.
+- Open Settings from the menu button on the player, or by right-clicking the tray icon. It is arranged under headings: Hotkeys, Player, YouTube Shorts, When you are away from the game, and WowTube.
 - To change a hotkey, click its box and press the new keys together with Ctrl, Alt or Shift. Clear turns that hotkey off. Press Save when you are done.
 - If another program already uses a key combination, WowTube tells you when it starts and when you save, and you can pick a different one.
-- Settings also holds the video's opacity and these choices: Keep the player inside the game window, hide the bar or the border until your pointer is over the video, make a double-click on the video maximize the player, pause the video when you switch away from the game, show the video only while the game is running, check for new versions, and start with Windows.
+- Settings also holds the video's opacity and these choices: Keep the player inside the game window, hide the bar or the border until your pointer is over the video, make a double-click on the video maximize the player, automatically switch to the tall shape for YouTube Shorts, automatically show Shorts in the video-only view, automatically play the next Short when one ends, pause the video when you switch away from the game, show the video only while the game is running, check for new versions, and start with Windows.
 
 ## The bar
 
 - Menu button (three lines): Back, Open copied link, Video full screen, Lock, Reset size, the hide options, Settings, What's new, Help, About, Hide WowTube and Quit WowTube.
 - Rest your pointer on a bar button to see what it does.
 - Drag the player by any part of the bar.
+- Shape button (a small phone or a wide screen with a play mark): Swap the player between a wide shape for regular videos and a tall shape for YouTube Shorts. Each shape keeps its own size and place. The player also goes tall by itself when you open a Short and wide again when you leave Shorts, unless you turn that off in Settings.
 - Square button: Maximize. Click it again to go back. Double-clicking the bar does the same.
 - X button: Close the player. Ctrl+Alt+Y brings it back.
 
@@ -40,7 +41,7 @@ Every hotkey can be changed or turned off in Settings.
 
 - Drag the bar to move the player.
 - Drag the small gold corner at the bottom right, or any edge of the thin gold border, to resize. You do not need to hit the line exactly.
-- Reset size in the menu puts the player back to half the game's width.
+- Reset size in the menu puts the shape on show back to its starting size: Half the game's width for the wide shape, and a Short's shape at a little over a third of the game's height for the tall one.
 - By default the player cannot leave the game window. You can change that in Settings.
 
 ## Watching
@@ -49,6 +50,8 @@ Every hotkey can be changed or turned off in Settings.
 - To type, click a text box such as YouTube's search. Your keyboard goes to the player until you press Enter or Esc, or click elsewhere.
 - For a video-only view, press Ctrl+Alt+F or choose Video full screen in the menu. It fills the player, not your monitor. The same key or menu line leaves it. The F key cannot do this, because your keyboard stays with the game. The app remembers the view for next time.
 - Double-clicking the video does what YouTube normally does: It turns the full-screen view on and off. If you tick "Double-clicking the video maximizes the player" in Settings, a double-click fills the game and another puts the player back, and the video stays in its full-screen view.
+- A Short opens in the video-only view by itself, a few seconds after it appears, and fills the player. Roll the mouse wheel over it for the next Short or the last one. Press Ctrl+Alt+F to bring back the page, with its like and comment buttons. The page also comes back when you leave Shorts. To turn this off, untick "Automatically show Shorts in the video-only view" in Settings.
+- Shorts play one after another: When one ends, the next starts by itself. To have each Short replay until you scroll, untick "Automatically play the next Short when one ends" in Settings.
 - To open a link you copied somewhere else, choose Open copied link in the menu.
 
 ## Lock

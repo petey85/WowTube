@@ -1,4 +1,4 @@
-WowTube 0.2.6 (test build)
+WowTube 0.2.7 (test build)
 ==========================
 
 Watch YouTube in a framed window on top of World of Warcraft.
@@ -61,6 +61,9 @@ The bar along the top:
                       hide the bar or border, Settings, What's new,
                       Hide WowTube, Quit WowTube.
   Anywhere on the bar Drag to move the player.
+  Phone or screen     Swap between a wide player for regular videos
+                      and a tall one for YouTube Shorts. Each keeps
+                      its own size and place.
   Square              Maximize: Fill the game with the video.
                       Click again to go back to the size you had.
                       Double-clicking the bar does the same.

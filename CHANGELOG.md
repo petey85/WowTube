@@ -1,5 +1,21 @@
 # WowTube changelog
 
+## 0.2.8 (2026-11-11)
+
+- New like button on the bar, beside the menu button, in the video-only view. That view hides YouTube's own like button, so the bar now carries one: A click presses YouTube's button for the video on show, on Shorts and on regular videos. It is filled in gold on a video you already like, and a second click takes the like back. When the YouTube page is on show the button is not on the bar, since YouTube's own is there. To keep it on the bar all the time, tick "Always show the like button on the bar" in the menu.
+- New full screen button on the bar, beside the menu button. One click fills the player with the video, and one click on it brings the YouTube page back, so you no longer need the menu to leave a full-screen Short. To have it on the bar only while the video fills the player, untick "Show the full screen button on the bar" in the menu.
+- When you bring the page back on a Short, the next Shorts stay on the page too, until you choose the full-screen view again.
+- The bottom edge of the border is now a progress bar: A dim track runs the whole edge and a bright line fills it as the video plays. It is drawn on the border, so nothing covers the video.
+- When you change the volume or mute, a line up the right edge shows the level for about two seconds, then goes away.
+- With "hide the border" turned on, the progress bar stays on show by itself and the rest of the border still hides.
+- The bar shows the time beside the name, for example WowTube 0:17 / 0:45. On a narrow bar the time is shortened or left out, and the name always stays.
+- To turn the progress bar, the volume line and the time off, untick "Show the video's progress and volume on the player's border" in Settings.
+- YouTube's mini player, which appears when you search or browse while a video plays, is now drawn smaller in its corner, so it no longer covers most of a small player. Its controls work as before.
+- A right-click in the player no longer opens a menu, neither YouTube's nor the browser's.
+- The bar no longer shows the long "video full screen" text. It says WowTube and the time.
+- Fixed: After a search in YouTube's search box, the list of suggestions could stay open over the results.
+- The bar's title no longer wraps onto two lines on a narrow player.
+
 ## 0.2.7 (2026-11-10)
 
 - New button on the bar, left of maximize: It swaps the player between a wide shape for regular videos and a tall shape for YouTube Shorts.

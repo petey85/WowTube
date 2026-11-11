@@ -26,13 +26,15 @@ Every hotkey can be changed or turned off in Settings.
 - Open Settings from the menu button on the player, or by right-clicking the tray icon. It is arranged under headings: Hotkeys, Player, YouTube Shorts, When you are away from the game, and WowTube.
 - To change a hotkey, click its box and press the new keys together with Ctrl, Alt or Shift. Clear turns that hotkey off. Press Save when you are done.
 - If another program already uses a key combination, WowTube tells you when it starts and when you save, and you can pick a different one.
-- Settings also holds the video's opacity and these choices: Keep the player inside the game window, hide the bar or the border until your pointer is over the video, make a double-click on the video maximize the player, automatically switch to the tall shape for YouTube Shorts, automatically show Shorts in the video-only view, automatically play the next Short when one ends, pause the video when you switch away from the game, show the video only while the game is running, check for new versions, and start with Windows.
+- Settings also holds the video's opacity and these choices: Keep the player inside the game window, hide the bar or the border until your pointer is over the video, make a double-click on the video maximize the player, show the video's progress and volume on the border, automatically switch to the tall shape for YouTube Shorts, automatically show Shorts in the video-only view, automatically play the next Short when one ends, pause the video when you switch away from the game, show the video only while the game is running, check for new versions, and start with Windows.
 
 ## The bar
 
 - Menu button (three lines): Back, Open copied link, Video full screen, Lock, Reset size, the hide options, Settings, What's new, Help, About, Hide WowTube and Quit WowTube.
 - Rest your pointer on a bar button to see what it does.
 - Drag the player by any part of the bar.
+- Full screen button (four corners, beside the menu button): One click puts you in the video-only view. There it turns into a bent arrow, and one click brings the YouTube page back. If you bring the page back on a Short, the next Shorts stay on the page until you choose the view again. To have the button on the bar only while in the video-only view, untick "Show the full screen button on the bar" in the menu.
+- Like button (a thumbs-up, beside the menu button): It appears in the video-only view, where YouTube's own like button is out of sight, and presses that button for you. It works on Shorts and on regular videos. It is filled in gold on a video you already like, and a second click takes the like back. To keep it on the bar all the time, tick "Always show the like button on the bar" in the menu. You need to be signed in to YouTube.
 - Shape button (a small phone or a wide screen with a play mark): Swap the player between a wide shape for regular videos and a tall shape for YouTube Shorts. Each shape keeps its own size and place. The player also goes tall by itself when you open a Short and wide again when you leave Shorts, unless you turn that off in Settings.
 - Square button: Maximize. Click it again to go back. Double-clicking the bar does the same.
 - X button: Close the player. Ctrl+Alt+Y brings it back.
@@ -51,6 +53,9 @@ Every hotkey can be changed or turned off in Settings.
 - For a video-only view, press Ctrl+Alt+F or choose Video full screen in the menu. It fills the player, not your monitor. The same key or menu line leaves it. The F key cannot do this, because your keyboard stays with the game. The app remembers the view for next time.
 - Double-clicking the video does what YouTube normally does: It turns the full-screen view on and off. If you tick "Double-clicking the video maximizes the player" in Settings, a double-click fills the game and another puts the player back, and the video stays in its full-screen view.
 - A Short opens in the video-only view by itself, a few seconds after it appears, and fills the player. Roll the mouse wheel over it for the next Short or the last one. Press Ctrl+Alt+F to bring back the page, with its like and comment buttons. The page also comes back when you leave Shorts. To turn this off, untick "Automatically show Shorts in the video-only view" in Settings.
+- The bottom edge of the border is a progress bar: A bright line fills a dim track as the video plays. When you change the volume or mute, a line up the right edge shows the level for about two seconds. The bar shows the time beside the name. To turn this off, untick "Show the video's progress and volume on the player's border" in Settings.
+- A right-click in the player does nothing. YouTube's right-click menu and the browser's are both turned off.
+- When you search or browse while a video plays, YouTube keeps it going in a mini player in the corner. WowTube draws that mini player smaller so you can still see the page. Click the mini player's top left corner to go back to the video, or its ✕ to close it.
 - Shorts play one after another: When one ends, the next starts by itself. To have each Short replay until you scroll, untick "Automatically play the next Short when one ends" in Settings.
 - To open a link you copied somewhere else, choose Open copied link in the menu.
 

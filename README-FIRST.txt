@@ -1,4 +1,4 @@
-WowTube 0.2.8 (test build)
+WowTube 0.2.9 (test build)
 ==========================
 
 Watch YouTube in a framed window on top of World of Warcraft.
@@ -37,7 +37,7 @@ launch the game later, the video stays hidden until you ask for it.
 
 HOTKEYS (work while you are playing)
 ------------------------------------
-  Ctrl+Alt+Y        Show / hide the video
+  Ctrl+Alt+Y        Show / hide the player
   Ctrl+Alt+S        Maximize over the game / back to your size
   Ctrl+Alt+L        Lock / unlock
   Ctrl+Alt+P        Play / pause
@@ -59,7 +59,7 @@ The bar along the top:
 
   Menu (three lines)  Back, Open copied link, Lock, Reset size,
                       hide the bar or border, Settings, What's new,
-                      Hide WowTube, Quit WowTube.
+                      Quit WowTube.
   Anywhere on the bar Drag to move the player.
   Four corners        Full screen: Fill the player with the video
                       alone. It turns into a bent arrow, which
@@ -78,12 +78,11 @@ The bar along the top:
   edge of the thin gold border (you do not need to hit the line
   exactly). The border and (if you choose) the bar hide when
   your pointer is away, and return when it comes back.
-* For a video-only view at any size, press Ctrl+Alt+F or choose
-  "Video full screen" in the menu: It fills the player, not your
-  monitor. The same key or menu line leaves it. The F key and Esc
-  cannot do it, because your keyboard stays with the game. In
-  Settings you can choose to have a double-click on the video
-  maximize the player.
+* For video full screen at any size, click the four-corners button,
+  press Ctrl+Alt+F or choose "Video full screen" in the menu: It
+  fills the player, not your monitor. The same button, key or menu
+  line leaves it. The F key and Esc cannot do it, because your
+  keyboard stays with the game.
 * While maximized, the bar hides. Move your pointer to the very top
   of the screen to bring it back. Esc returns the player to the size
   it had. (While maximized the game does not receive Esc.)
@@ -107,7 +106,7 @@ GOOD TO KNOW
   Settings.
 * It stays put when you click onto a second monitor.
 * YouTube's ads play as normal unless you are signed in with Premium.
-* Right-click the tray icon for Settings, Reset window size, Help,
+* Right-click the tray icon for Settings, Reset size, Help,
   What's new, About, and Quit. Help has all of this in one window.
 
 
@@ -120,15 +119,17 @@ open an issue at:
 Useful things to say: What you were doing, what you expected, what
 happened, and whether you use one monitor or more.
 
-If something goes wrong, the log helps. Right-click the tray icon,
-choose "Open log folder", and send the file wowtube.log. It records
-what the app did, not which videos you watched.
+If something goes wrong, the log helps. WowTube keeps it on your own
+PC and never sends it anywhere. Press Win+R, paste
+  %AppData%\WowTube\logs
+press Enter, and send the file wowtube.log. It records what the app
+did, not which videos you watched.
 
 
 REMOVING IT
 -----------
-1. Right-click the tray icon. If "Start with Windows" is ticked,
-   click it to untick it.
+1. Right-click the tray icon and choose Settings. If "Start with
+   Windows" is ticked, untick it and press Save.
 2. Choose Quit.
 3. Delete WowTube.exe.
 4. Optional: Delete the folder %AppData%\WowTube (press Win+R, paste
@@ -149,8 +150,8 @@ UPDATING
 WowTube tells you when a newer version is out: A notice near the clock
 when you are out of the game, and a "New Version ... available" item in
 the tray menu. Click either to open the download page. It only asks
-GitHub which version is newest and sends nothing about you. You can
-turn the check off in Settings.
+GitHub which version is newest and sends nothing about you. The check
+is always on.
 
 Quit WowTube from the tray, download the new zip from
   https://github.com/petey85/WowTube/releases

@@ -1,5 +1,22 @@
 # WowTube changelog
 
+## 0.2.9 (2026-11-12)
+
+- New in Settings: "Reset to defaults", with three buttons for the hotkeys, the options, and the size and location of the player. Each asks first, and nothing changes until you press Save.
+- Settings now holds every choice: "Show the video full screen button on the bar" and "Always show the like button on the bar" are there as well as in the menu.
+- One name for one thing: The view that fills the player with the video is called "video full screen" everywhere, and the player is called "the player" everywhere. "Reset size" has the same name in both menus.
+- The player menu is shorter: "Shorts shape" and "Hide WowTube" are gone from it, since the bar has a button for each right beside it.
+- "Start with Windows" is now only in Settings, no longer in the tray menu as well.
+- The choice "Double-clicking the video maximizes the player" is gone. The square button, a double-click on the bar and the maximize hotkey still do it.
+- Fixed: The notice about a hotkey that another program already uses now names the hotkey in plain words, such as "Video full screen", not a short code.
+- Fixed: The video full screen button and hotkey could do nothing on a regular video when YouTube's own full-screen button was out of view: On a small player, with the page scrolled down, or with the video in YouTube's mini player. They now work in all three cases. From the mini player, the video's own page opens first.
+- Fixed: A Short could go on playing, heard but not seen, after the game was closed or the player was hidden. This happened once a regular video had been watched earlier. Play and pause, mute and the volume hotkeys could miss the Short in the same way.
+- The video full screen button on the bar now has the shape of the video: Four corners of a wide rectangle for regular videos, and of a tall one for Shorts.
+- The player opacity slider now moves in steps of 10%.
+- "Open log folder" is gone from the tray menu. The log is still kept on your own PC for finding faults, and Help says where it is.
+- WowTube also checks for a newer version each time you close the game, so you hear about an update when you are done playing.
+- WowTube now always checks for a newer version. The "Check for new versions" choice is gone from Settings. As before, the check only asks GitHub which version is newest and sends nothing about you.
+
 ## 0.2.8 (2026-11-11)
 
 - New like button on the bar, beside the menu button, in the video-only view. That view hides YouTube's own like button, so the bar now carries one: A click presses YouTube's button for the video on show, on Shorts and on regular videos. It is filled in gold on a video you already like, and a second click takes the like back. When the YouTube page is on show the button is not on the bar, since YouTube's own is there. To keep it on the bar all the time, tick "Always show the like button on the bar" in the menu.

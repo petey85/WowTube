@@ -1,4 +1,4 @@
-WowTube 0.2.9 (test build)
+WowTube 0.3.0 (test build)
 ==========================
 
 Watch YouTube in a framed window on top of World of Warcraft.
@@ -57,17 +57,22 @@ THE PLAYER
 ----------
 The bar along the top:
 
-  Menu (three lines)  Back, Open copied link, Lock, Reset size,
+  Menu (three lines)  Back, YouTube Home, YouTube Shorts, Open copied
+                      link, Share: Copy a link to this video, Lock,
+                      Reset size,
                       hide the bar or border, Settings, What's new,
                       Quit WowTube.
   Anywhere on the bar Drag to move the player.
+  Home, Shorts, Share Go to the YouTube home page or to Shorts, or copy
+                      a link to the video on show. On the bar when the
+                      player is wide enough, in the menu when it is not.
   Four corners        Full screen: Fill the player with the video
                       alone. It turns into a bent arrow, which
                       brings the YouTube page back.
   Thumbs-up           Like the video. It shows while the video
                       fills the player.
-  Phone or screen     Swap between a wide player for regular videos
-                      and a tall one for YouTube Shorts. Each keeps
+  The shape           Wide for regular videos, tall for YouTube Shorts.
+                      The player picks it by itself. Each shape keeps
                       its own size and place.
   Square              Maximize: Fill the game with the video.
                       Click again to go back to the size you had.
@@ -155,4 +160,8 @@ is always on.
 
 Quit WowTube from the tray, download the new zip from
   https://github.com/petey85/WowTube/releases
-and replace WowTube.exe. Your settings and sign-in are kept.
+and replace WowTube.exe. Your settings and sign-in are kept. Keep
+WowTube.exe in the same folder each time: Windows treats a copy in a
+new folder as a new program and hides its tray icon again. If you
+start WowTube while it is already running, a notice near the clock
+says so.

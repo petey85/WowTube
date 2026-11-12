@@ -1,5 +1,18 @@
 # WowTube changelog
 
+## 0.3.0 (2026-11-12)
+
+- New: Click or drag the time line along the bottom of the player to jump back or forward in the video. It works on Shorts as well. The pointer turns into a hand there, and a small tip shows the time a click would jump to, such as "Jump to 8:10". To make the player taller, drag a bottom corner. Jumping is switched off while an ad plays.
+- New: A Share button, a curved arrow. It copies a link to the video or Short on show, and the bar says "Link copied". Nothing is sent anywhere.
+- New: Home and Shorts buttons, a small house and a tall card with a play mark, which take you to the YouTube home page and to YouTube Shorts.
+- The three new buttons are on the bar when the player is at least about 480 pixels wide. On a narrower player they are in the menu, as "YouTube Home", "YouTube Shorts" and "Share: Copy a link to this video".
+- Settings is now in two columns, so the window is shorter and fits smaller screens: Hotkeys and "Reset to defaults" on the left, everything else on the right. No setting has changed.
+- If you start WowTube while it is already running, a notice near the clock now says so and how to switch versions. Before, nothing seemed to happen. WowTube does not update by itself.
+- Fixed: The player could keep the wrong shape, wide on a Short or tall on a regular video, and stay that way after a restart. The shape now always matches the page: Tall on Shorts, wide everywhere else, also when the page changes while the player is hidden.
+- The shape button is gone from the bar, since the player now picks the shape by itself. If you untick "Automatically switch to the tall shape for YouTube Shorts" in Settings, the menu gains a line to switch shape by hand.
+- The Home and Shorts buttons change the player's shape as you click, not a moment later. While YouTube brings the page, a cover with a turning ring and the word "Loading" lies over the player, so you never see the old page in the new shape, and nothing half-loaded can be clicked. It lifts as soon as the page is there or the Short is ready to play. A Short then switches to video full screen about a second later. The bar says "Loading…" as well.
+- Fixed: Now and then a Short loaded but did not start, and sat at 0:00 with a play button. When Shorts open in video full screen, WowTube now starts a Short that never began.
+
 ## 0.2.9 (2026-11-12)
 
 - New in Settings: "Reset to defaults", with three buttons for the hotkeys, the options, and the size and location of the player. Each asks first, and nothing changes until you press Save.

@@ -3,6 +3,7 @@
 ## Showing and hiding
 
 - Press Ctrl+Alt+Y in the game to show or hide the player. A left-click on the tray icon does the same.
+- The first time WowTube starts, a welcome window shows this hotkey and what the game needs. If the game is not running, its "Try it on the desktop now" button shows the player straight away, so you can look around and sign in to YouTube. That lasts until you start the game or quit WowTube. At any other time the player shows only while the game runs.
 - The player stays hidden when you launch the game. It appears only when you ask for it.
 - It hides when you minimize the game, or when another program is in front of the game on the same monitor. The video keeps playing, so you still hear it. To have it pause instead, tick "Pause the video when you switch away from the game" in Settings. It stays put when you click onto a second monitor.
 
@@ -85,5 +86,6 @@ Every hotkey can be changed or turned off in Settings.
 - If there is one, a notice appears near the clock, but only when you are out of the game. It never interrupts play. Click the notice to open the download page.
 - The tray menu and the player menu also show "New Version … available" until you update. The tray icon blinks for half a minute, then keeps a dot.
 - To ask straight away, open About and press Check for updates.
-- Nothing is downloaded or installed for you. Quit WowTube, download the new zip and replace the file. Keep WowTube.exe in the same folder each time: Windows treats a copy in a new folder as a new program, so its icon by the clock would be hidden again and listed twice in the taskbar settings. If you start WowTube while it is already running, a notice near the clock says so, and the copy that was running carries on.
+- Nothing is downloaded or installed for you. If you used the installer, download the new WowTube-Setup and run it: It closes the running copy for you and keeps your settings and sign-in. You do not need to uninstall first, and uninstalling removes your settings and sign-in.
+- If you run WowTube from the zip, quit WowTube, download the new zip and replace the file. Keep WowTube.exe in the same folder each time: Windows treats a copy in a new folder as a new program, so its icon by the clock would be hidden again and listed twice in the taskbar settings. If you start WowTube while it is already running, a notice near the clock says so, and the copy that was running carries on.
 - The check is always on. It cannot be turned off.

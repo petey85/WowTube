@@ -1,4 +1,4 @@
-WowTube 0.3.0 (test build)
+WowTube 0.3.1 (test build)
 ==========================
 
 Watch YouTube in a framed window on top of World of Warcraft.
@@ -18,17 +18,23 @@ BEFORE YOU START
 
 HOW TO START IT
 ---------------
-1. Put WowTube.exe anywhere you like (your Desktop is fine).
-2. Start World of Warcraft and log in to a character.
-3. Double-click WowTube.exe.
+With the installer (the easy way):
+
+1. Run WowTube-Setup. It needs no administrator rights.
 
    Windows will probably show "Windows protected your PC" the first
    time, because this test build is not signed. Click "More info",
    then "Run anyway".
 
-4. It asks once whether to start with Windows. Either answer is fine.
-5. The player appears over the game showing YouTube. Sign in to
-   YouTube in it if you want your subscriptions or Premium.
+2. Leave "Start WowTube" ticked on the last page and press Finish.
+3. A welcome window shows the hotkey and what the game needs. If the
+   game is not running, "Try it on the desktop now" shows the player
+   straight away, so you can look around and sign in to YouTube.
+4. Start World of Warcraft, log in to a character, and press
+   Ctrl+Alt+Y. The player appears over the game.
+
+With the zip: Unzip it, put WowTube.exe anywhere you like, and
+double-click it. The rest is the same.
 
 After this, WowTube waits in the system tray (the small icons near the
 clock. Look for a dark circle with a gold play triangle). When you
@@ -133,6 +139,13 @@ did, not which videos you watched.
 
 REMOVING IT
 -----------
+Installed with the installer: Open Windows Settings, Apps, Installed
+apps, find WowTube and choose Uninstall. It closes WowTube and removes
+everything, your settings and YouTube sign-in included. To update you
+do not need to uninstall: Run the newer installer over it.
+
+Run from the zip:
+
 1. Right-click the tray icon and choose Settings. If "Start with
    Windows" is ticked, untick it and press Save.
 2. Choose Quit.
@@ -158,10 +171,15 @@ the tray menu. Click either to open the download page. It only asks
 GitHub which version is newest and sends nothing about you. The check
 is always on.
 
-Quit WowTube from the tray, download the new zip from
+Installed with the installer: Download the new WowTube-Setup from
   https://github.com/petey85/WowTube/releases
-and replace WowTube.exe. Your settings and sign-in are kept. Keep
-WowTube.exe in the same folder each time: Windows treats a copy in a
-new folder as a new program and hides its tray icon again. If you
-start WowTube while it is already running, a notice near the clock
-says so.
+and run it. It closes the running copy for you and keeps your settings
+and sign-in.
+
+Run from the zip: Quit WowTube from the tray, download the new zip and
+replace WowTube.exe. Keep WowTube.exe in the same folder each time:
+Windows treats a copy in a new folder as a new program and hides its
+tray icon again.
+
+If you start WowTube while it is already running, a notice near the
+clock says so.

@@ -1,5 +1,13 @@
 # WowTube changelog
 
+## 0.3.1 (2026-11-13)
+
+- New: Starting WowTube with `--quit` closes the copy that is running and starts nothing. It waits until that copy has closed, which makes replacing the file with a newer version safe. Your settings and the player's place are saved as with Quit from the menu.
+- New: An installer, `WowTube-Setup`. It needs no administrator rights, adds WowTube to the Start menu and to the list of installed apps, and can add a desktop shortcut. Running a newer installer updates WowTube in place: It closes the running copy for you and keeps your settings and YouTube sign-in. Uninstalling removes everything, your settings and sign-in included. The zip stays as a second download.
+- New: A welcome window on the very first start. It shows the hotkey for the player, says which display mode the game needs, and asks whether to start with Windows. If the game is not running, "Try it on the desktop now" shows the player straight away, so you can look around and sign in to YouTube before you play.
+- New: WowTube.exe carries its logo as its icon, so the file, its shortcuts and the installer show it.
+- Fixed: The question asked on the very first start is asked again next time if WowTube is closed before you answer it.
+
 ## 0.3.0 (2026-11-12)
 
 - New: Click or drag the time line along the bottom of the player to jump back or forward in the video. It works on Shorts as well. The pointer turns into a hand there, and a small tip shows the time a click would jump to, such as "Jump to 8:10". To make the player taller, drag a bottom corner. Jumping is switched off while an ad plays.

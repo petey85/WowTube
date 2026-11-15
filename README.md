@@ -2,7 +2,7 @@
 
 Watch YouTube in a framed window on top of World of Warcraft: On a flight path, during a crafting session, or in a small window that stays up while you play.
 
-**Status:** early test build (0.3.1), shared with a few testers.
+**Status:** early test build (0.3.2), shared with a few testers.
 
 WowTube is not affiliated with, approved by or endorsed by Blizzard Entertainment or YouTube.
 
@@ -10,7 +10,9 @@ WowTube is not affiliated with, approved by or endorsed by Blizzard Entertainmen
 
 Get the latest `WowTube-Setup-<version>.exe` from the [Releases page](https://github.com/petey85/WowTube/releases) and run it. It needs no administrator rights, adds WowTube to the Start menu, and a newer Setup updates it in place. A welcome window then shows the hotkey and lets you try the player on the desktop before you start the game.
 
-Prefer no installer? `WowTube-<version>-win-x64.zip` on the same page holds the same app: Unzip it, read `README-FIRST.txt`, and run `WowTube.exe`. Nothing else needs installing on most PCs.
+If World of Warcraft is installed, Setup also offers a small WowTube addon for the game: A minimap button, a window that lists the hotkeys and tips, and a line in chat when you press the hotkey and WowTube is not running. It is optional, and WowTube works the same without it.
+
+Prefer no installer? `WowTube-<version>-win-x64.zip` on the same page holds the same app without the addon: Unzip it, read `README-FIRST.txt`, and run `WowTube.exe`. Nothing else needs installing on most PCs.
 
 - **Windows 10 or 11, 64-bit.** Not Mac or Linux.
 - **WoW in "Fullscreen (Windowed)" or "Windowed" mode.**

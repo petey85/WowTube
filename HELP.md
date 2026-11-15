@@ -80,6 +80,14 @@ Every hotkey can be changed or turned off in Settings.
 - WowTube does not read the game's memory, change the game, or press keys for you.
 - If something goes wrong, WowTube keeps a small log on your own PC that helps find the cause. Press Win+R, paste `%AppData%\WowTube\logs` and press Enter, then send the file `wowtube.log`. The log records what the app did, not which videos you watched, and it is never sent anywhere by the app.
 
+## The addon
+
+Setup can also install a small WowTube addon for the game. WowTube works without it. The addon adds a minimap button and a window that lists the hotkeys and tips, and it tells you in chat when you press Ctrl+Alt+Y and WowTube is not running. If the game was running during Setup, restart the game to see the addon.
+
+- Type `/wowtube` or `/wt` in the game's chat to open its window.
+- To hide the minimap button, untick "Show the minimap button" in that window. `/wowtube` and `/wt` still work with the button hidden.
+- The addon and WowTube do not talk to each other. Settings you change in WowTube, such as hotkeys, do not show in the addon's window, which lists the default hotkeys.
+
 ## New versions
 
 - WowTube asks GitHub whether a newer version exists when it starts, every 3 hours, and each time you close the game. It sends nothing about you.

@@ -1,4 +1,4 @@
-WowTube 0.3.1 (test build)
+WowTube 0.3.2 (test build)
 ==========================
 
 Watch YouTube in a framed window on top of World of Warcraft.
@@ -26,6 +26,10 @@ With the installer (the easy way):
    time, because this test build is not signed. Click "More info",
    then "Run anyway".
 
+   One page has two checkboxes, both ticked: A desktop shortcut and,
+   if Setup finds World of Warcraft, a small WowTube addon for the
+   game. The addon is optional. See THE ADDON below.
+
 2. Leave "Start WowTube" ticked on the last page and press Finish.
 3. A welcome window shows the hotkey and what the game needs. If the
    game is not running, "Try it on the desktop now" shows the player
@@ -34,7 +38,7 @@ With the installer (the easy way):
    Ctrl+Alt+Y. The player appears over the game.
 
 With the zip: Unzip it, put WowTube.exe anywhere you like, and
-double-click it. The rest is the same.
+double-click it. The rest is the same. The zip has no addon.
 
 After this, WowTube waits in the system tray (the small icons near the
 clock. Look for a dark circle with a gold play triangle). When you
@@ -121,6 +125,22 @@ GOOD TO KNOW
   What's new, About, and Quit. Help has all of this in one window.
 
 
+THE ADDON
+---------
+Setup can put a small WowTube addon into the game. WowTube works the
+same without it, and the two do not talk to each other.
+
+* It adds a minimap button and a window that lists the hotkeys and
+  tips. Type /wowtube or /wt in the game's chat to open the window.
+* It tells you in chat when you press Ctrl+Alt+Y and WowTube is not
+  running.
+* To hide the minimap button, untick "Show the minimap button" in the
+  window. /wowtube and /wt still work.
+* If the game was running during Setup, restart the game to see it.
+* Setup puts three small files in the game's addon folder and changes
+  nothing else there.
+
+
 SENDING FEEDBACK
 ----------------
 Tell whoever sent you this (they may have shared a feedback form), or
@@ -141,8 +161,9 @@ REMOVING IT
 -----------
 Installed with the installer: Open Windows Settings, Apps, Installed
 apps, find WowTube and choose Uninstall. It closes WowTube and removes
-everything, your settings and YouTube sign-in included. To update you
-do not need to uninstall: Run the newer installer over it.
+everything, your settings and YouTube sign-in included, and the addon
+if Setup installed it. To update you do not need to uninstall: Run the
+newer installer over it.
 
 Run from the zip:
 

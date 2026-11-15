@@ -1,5 +1,13 @@
 # WowTube changelog
 
+## 0.3.2 (2026-11-15)
+
+- New: Setup can install a small WowTube addon for the game. If Setup finds World of Warcraft, the page with the checkboxes has a box for it, already ticked. The addon adds a minimap button and a window that lists the hotkeys and tips. Type `/wowtube` or `/wt` in the game's chat to open the window. It also tells you in chat when you press Ctrl+Alt+Y and WowTube is not running.
+- The addon is optional. WowTube works the same without it, and the two do not talk to each other. Setup puts three small files in the game's addon folder and changes nothing else there. Uninstalling WowTube removes them. If the game is running during Setup, restart the game to see the addon.
+- Setup's "Create a desktop shortcut" box is now ticked to begin with. When you update, Setup remembers what you chose last time.
+- Help has a new section, "The addon".
+- The app itself has not changed. The zip holds the app only, without the addon.
+
 ## 0.3.1 (2026-11-13)
 
 - New: Starting WowTube with `--quit` closes the copy that is running and starts nothing. It waits until that copy has closed, which makes replacing the file with a newer version safe. Your settings and the player's place are saved as with Quit from the menu.

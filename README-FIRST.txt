@@ -1,4 +1,4 @@
-WowTube 0.3.2 (test build)
+WowTube 0.3.3 (test build)
 ==========================
 
 Watch YouTube in a framed window on top of World of Warcraft.
@@ -67,15 +67,20 @@ THE PLAYER
 ----------
 The bar along the top:
 
-  Menu (three lines)  Back, YouTube Home, YouTube Shorts, Open copied
-                      link, Share: Copy a link to this video, Lock,
+  Menu (three lines)  Back, YouTube Home, YouTube Shorts, Next video,
+                      Open copied link, Share: Copy a link to this
+                      video, Lock,
                       Reset size,
                       hide the bar or border, Settings, What's new,
                       Quit WowTube.
   Anywhere on the bar Drag to move the player.
+  Top edge of the bar Drag to make the player taller or shorter.
   Home, Shorts, Share Go to the YouTube home page or to Shorts, or copy
                       a link to the video on show. On the bar when the
                       player is wide enough, in the menu when it is not.
+  Next                Skip to the next video. YouTube picks which. On a
+                      Short, the next Short. Not while an ad plays. On
+                      the bar with the three above.
   Four corners        Full screen: Fill the player with the video
                       alone. It turns into a bent arrow, which
                       brings the YouTube page back.

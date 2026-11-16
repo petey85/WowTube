@@ -1,5 +1,14 @@
 # WowTube changelog
 
+## 0.3.3 (2026-11-16)
+
+- New: A Next button on the bar (a triangle against a bar) skips to the next video. It presses YouTube's own Next for you, so YouTube picks what comes next: The next video in a playlist, or its own suggestion. On a Short it moves to the next Short. The menu has the same as "Next video".
+- Next does nothing while an ad plays, and the bar says "Not during an ad".
+- The Next button is on the bar with Home, Shorts and Share when the player is wide enough. On a narrow player, find it in the menu.
+- New: Drag the very top edge of the bar to make the player taller or shorter from the top. The pointer turns into an up and down arrow there. The rest of the bar still moves the player.
+- Setup's last page now says where WowTube goes after it starts: A small icon in the bottom right corner of the screen, next to the Windows clock. It also says that the player shows up inside the game, with the hotkey for it.
+- The About window thanks Zach Chipman, who had the original idea for WowTube.
+
 ## 0.3.2 (2026-11-15)
 
 - New: Setup can install a small WowTube addon for the game. If Setup finds World of Warcraft, the page with the checkboxes has a box for it, already ticked. The addon adds a minimap button and a window that lists the hotkeys and tips. Type `/wowtube` or `/wt` in the game's chat to open the window. It also tells you in chat when you press Ctrl+Alt+Y and WowTube is not running.

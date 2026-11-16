@@ -2,7 +2,7 @@
 
 Watch YouTube in a framed window on top of World of Warcraft: On a flight path, during a crafting session, or in a small window that stays up while you play.
 
-**Status:** early test build (0.3.2), shared with a few testers.
+**Status:** early test build (0.3.3), shared with a few testers.
 
 WowTube is not affiliated with, approved by or endorsed by Blizzard Entertainment or YouTube.
 
@@ -22,9 +22,9 @@ Prefer no installer? `WowTube-<version>-win-x64.zip` on the same page holds the 
 ## What it does
 
 - A small tray app. Press **Ctrl+Alt+Y** in the game to show or hide the video.
-- One player showing the full YouTube site. Drag its border to resize, or press the maximize button (or **Ctrl+Alt+S**) to fill the game and again to go back. Press **Ctrl+Alt+F** for video full screen: The video alone, filling the player.
+- One player showing the full YouTube site. Drag its border, or the very top edge of the bar, to resize, or press the maximize button (or **Ctrl+Alt+S**) to fill the game and again to go back. Press **Ctrl+Alt+F** for video full screen: The video alone, filling the player.
 - The player is wide for regular videos and tall for YouTube Shorts. It switches by itself, and Shorts play one after another.
-- The bottom edge of the border is a time line you can click or drag to jump through the video, and the bar shows the time. Home, Shorts and Share buttons go to those YouTube pages and copy a link to the video on show. A video full screen button fills the player with the video alone, and a like button there presses YouTube's own.
+- The bottom edge of the border is a time line you can click or drag to jump through the video, and the bar shows the time. Home, Shorts and Share buttons go to those YouTube pages and copy a link to the video on show, and a Next button skips to the next video. A video full screen button fills the player with the video alone, and a like button there presses YouTube's own.
 - Click the video to pause it, or scroll the page, **without taking your keyboard away from the game**.
 - **Lock** fixes the frame in place and lets clicks pass through it to the game.
 - The border, and optionally the bar, hide when your pointer is away.
@@ -52,6 +52,10 @@ For requests, fan mail and business inquiries, email Adam Peterson at [petersona
 - How to use it: [HELP.md](HELP.md)
 - First steps and removal: [README-FIRST.txt](README-FIRST.txt)
 - Changes in each version: [CHANGELOG.md](CHANGELOG.md).
+
+## Thanks
+
+Special thanks to Zach Chipman for the original idea.
 
 ## Ownership
 
